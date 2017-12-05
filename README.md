@@ -1,6 +1,6 @@
-# bank
+# Bank
 
-### Bank | Homepage responsive redesign
+Bank | Homepage responsive redesign
 Bank is a redesign of the home page of GTBank.
 
 The homepage of GTBank website is indeed very beautiful, i was very impressed with the way the designers/developers were able to conceal large chunk of information and links. I think the homepage is clean, very pleasing and more importantly, it is very easy to locate information. 
@@ -15,9 +15,8 @@ _(Update)_ Between the time of my observation and when I commenced on redesignin
 * Home page - ![alt text](https://github.com/AustinIkenna/bank/blob/master/images/GTBank_home.PNG "GTBank Home page")
 * The bank's mobile site - ![alt text](https://github.com/AustinIkenna/bank/blob/master/images/GTBank_mobile_old.JPG "GTBank Old Mobile site")
 * My design - ![alt text](https://github.com/AustinIkenna/bank/blob/master/images/my_design.JPG "My Design")
-* _(Update)_ The new GTBank website with added responsiveness redesigned by their web guys- ![alt text](https://github.com/AustinIkenna/bank/blob/master/images/GTBank_mobile_new1.JPG "GTBank New Mobile view")
-
-![alt text](https://github.com/AustinIkenna/bank/blob/master/images/GTBank_mobile_new2.JPG "GTBank New Mobile menu")
+* _(Update)_ The new GTBank website with added responsiveness - ![alt text](https://github.com/AustinIkenna/bank/blob/master/images/GTBank_mobile_new1.JPG "GTBank New Mobile view") 
+...![alt text](https://github.com/AustinIkenna/bank/blob/master/images/GTBank_mobile_new2.JPG "GTBank New Mobile menu")
 
 ### Languages
 * HTML5
@@ -25,5 +24,5 @@ _(Update)_ Between the time of my observation and when I commenced on redesignin
 * JQUERY
 
 ### Tools and Resources
-* [Fullscreen slider by Nikolay Talanov] (https://codepen.io/suez/pen/ByvKXE "Fullscreen drag-slider with parallax")
+[Fullscreen slider by Nikolay Talanov] (https://codepen.io/suez/pen/ByvKXE "Fullscreen drag-slider with parallax")
 
