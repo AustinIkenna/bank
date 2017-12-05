@@ -3,13 +3,13 @@
 ## Bank | Homepage responsive redesign
 Bank is a redesign of the home page of GTBank.
 
-The GTBank website is a very beautiful website, i was very impressed with the way the designers/developers were able to conceal large chunk of information and links. I think the homepage is very clean, beautiful and more importantly users would find it very easy to locate information. 
+The homepage of GTBank website is indeed very beautiful, i was very impressed with the way the designers/developers were able to conceal large chunk of information and links. I think the homepage is clean, very pleasing and more importantly, it is very easy to locate information. 
 
-However, I observed that Gtbank website is not responsive (no breakpoints); they have a different website developed for mobile users. But still the mobile site design looks very poor and too slow on mobile devices. Being a big fan of mobile first designs, I re-designed a more responsive layout for smaller screens. Whenever the website detects smaller screens it will readjust the display.
+However, I observed that Gtbank website is not very responsive (no breakpoints at all); although, they have a different website developed for mobile users. But still, the mobile site design looks very poor and too slow on mobile devices. Being a big fan of mobile first designs, I re-designed a responsive layout suitable for different sizes of screen. 
 
-The goal is to design a quick and responsive layout that masks information on smaller screens, and ensuring that there isn’t going to be much compromise on the amount of information that can be accessed on a smaller screen when compared with what is obtainable on a larger screen.
+The goal was to design a quick and responsive layout that masks information on smaller screens, and ensuring that there isn’t going to be much compromise on the amount of information that can be accessed on a smaller screen when compared with what is obtainable on a larger screen.
 
-_(Update)_ Between the time i observed this and the time i commenced on the redesign, GTBank had re-designed to make this website more responsive. However, despite these new changes it is still not as good as you would expect from a top organisation like them.
+_(Update)_ Between the time of my observation and when I commenced on redesigning the homepage, GTBank had already re-designed to make the website more responsive. However, despite these new changes it is still not as good as you would expect from a top organisation like them.
 
 ## ScreenShots
 * Home page - ![alt text](https://github.com/AustinIkenna/bank/blob/master/images/GTBank_home.PNG "GTBank Home page")
