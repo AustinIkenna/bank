@@ -1,33 +1,13 @@
 
-
-@media  only screen and (min-width: 601px) and (max-width: 1300px) {
-.menu ul li > ul {
-    font-size: 120%;
-    height: 80%;
-}
-}
-
-@media  only screen and (max-width: 991px)  {
-.menu ul li:hover > ul { 
-    display: inline-block; /* display submenu on hover*/
-    width: 100%;
-    right: 274px;
-}
-.menu ul li > ul {
-    font-size: 120%;
-    height: 100%;
-}
-.slide-link {
-    display: ;
-    bottom: 5%;
-  }
-#homeFooter nav {
-    top: 94%;
-}
-}  
+/* ****************************************************/
+/* ************ Home menu slide out styling ***********/
+/* ****************************************************/
+  
 
 
-
+/* ****************************************/
+/* ************* Enable scroll ************/
+/* ****************************************/
 @media only screen and (min-width : 960px) and (max-width : 1023px) {
 body {
     overflow-y: scroll;
@@ -39,10 +19,15 @@ body {
 } 
 
 
-
 /* ****************************************/
 /* ************ Hidden Elements ***********/
 /* ****************************************/
+@media only screen and (min-width : 960px) and (max-width : 1500px) {
+.mediumNav {
+    display: none;
+}
+}
+
 @media only screen and (min-width : 0) and (max-width : 959px) {
 /* hides the following elements in smaller screen */
 .topNav,
@@ -59,11 +44,12 @@ body {
 /* ************ Responsiveness styling for screen size 701 - 959px ***********/
 /* *************************************************************************/
 @media only screen and (min-width : 701px) and (max-width : 959px) {
-/* ************ Make home menu to drop down instead of slide out dropdown menu here ***********/
+/*** To Make home menu to drop down instead of slide out dropdown menu here 
+***/
 
 /* Slide link styling */
 .slide.active .slide-text {
-    bottom: 12%;
+    bottom: 25%;
     width: 25%;
     text-align: center;
     left: 8%;
@@ -72,13 +58,11 @@ body {
     font-size: 200%;
 }
 
-
 /* Slide control button styling */
 .slider-pagi {
-    bottom: 5%;
+    bottom: 18%;
     left: 20%;
 }
-
 
 /* Bottom Nav styling */
 .nav.mediumNav {
@@ -88,7 +72,7 @@ body {
     height: auto;
     text-align: center;
     margin-top: 1.8%;
-    padding: 10% 0;
+    padding: 15% 0;
     border-radius: 0.3em;
     background-color: #cc3300;
     float: right;
@@ -121,6 +105,7 @@ html, body {
 }
 
 /* Hidden items on mobile */
+.mediumNav,
 .homeMenu,
 .homeMenuImage {
     display: none ;
@@ -257,8 +242,7 @@ div ul li ul {
 }
 }
 
-
-@media only screen and (min-width : 451px) and (max-width : 700px) {
+@media only screen and (min-width : 451px) and (max-width : 600px) {
 .slider {
     height: 50%;
 }
@@ -280,11 +264,44 @@ div ul li ul {
 }
 
 .nav.bottomNav {
-    padding: 1% 0;
+    padding: 1.8% 0;
 }
 
 .nav.bottomNav img {
-    width: 25%;
+    width: 30%;
     padding: 3% 0;
 }
 }
+
+
+@media only screen and (min-width : 601px) and (max-width : 700px) {
+.slider {
+    height: 55%;
+}
+
+#mobileMenu {
+    top: 55%;
+    height: 40%;
+}
+
+/* Slide link styling */
+.slide.active .slide-text {
+    width: 42%;
+    bottom: 15%;
+}
+
+/* Slide control button styling */
+.slider-pagi {
+    bottom: 48%;
+}
+
+.nav.bottomNav {
+    padding: 1.5% 0;
+}
+
+.nav.bottomNav img {
+    width: 26%;
+    padding: 3% 0;
+}
+}
+
