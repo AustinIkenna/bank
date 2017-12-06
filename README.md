@@ -8,22 +8,18 @@ However, I observed that Gtbank website is not very responsive (no breakpoints a
 
 The goal was to design a quick and responsive layout that masks information on smaller screens, and ensuring that there isn’t going to be much compromise on the amount of information that can be accessed on a smaller screen when compared with what is obtainable on a larger screen.
 
-_(Update)_ Between the time of my observation and when I commenced on redesigning the homepage, GTBank had already re-designed to make the website more responsive. However, despite these new changes it is still not as good as you would expect from a top organisation.
+The was what the bank's mobile site looks like- ![](images/GTBank_mobile_old.JPG "GTBank Old Mobile site")
 
-### ScreenShots
-* Home page - 
+**_(Update)_** Between the time of my observation and when i commenced on redesigning the homepage, GTBank had already re-designed to make the website more responsive. However, despite these new changes it is still not as good as you would expect from a top organisation.
 
-...(https://github.com/AustinIkenna/bank/blob/master/images/GTBank_home.png "GTBank Home page")
-* The bank's mobile site - 
+### View ScreenShots
+*  [The Home page](images/GTBank_home.png "GTBank Home page")
+* [My design ](images/my_design.png "My Design")
+*  **_(Update)_** The new GTBank website with added responsiveness - 
 
-...(https://github.com/AustinIkenna/bank/blob/master/images/GTBank_mobile_old.JPG "GTBank Old Mobile site")
-* My design - 
-
-...(https://github.com/AustinIkenna/bank/blob/master/images/my_design.png "My Design")
-* _(Update)_ The new GTBank website with added responsiveness - 
-
-...(https://github.com/AustinIkenna/bank/blob/master/images/GTBank_mobile_new1.png "GTBank New Mobile view") 
-...(https://github.com/AustinIkenna/bank/blob/master/images/GTBank_mobile_new2.png "GTBank New Mobile menu")
+    [Mobile homepage](images/GTBank_mobile_new1.png "GTBank New Mobile homepage")
+    
+    [Mobile menu](images/GTBank_mobile_new2.png "GTBank New Mobile menu")
 
 ### Languages
 * HTML5
@@ -31,5 +27,5 @@ _(Update)_ Between the time of my observation and when I commenced on redesignin
 * JQUERY
 
 ### Tools and Resources
-[Fullscreen slider by Nikolay Talanov](https://codepen.io/suez/pen/ByvKXE)
+[Fullscreen slider by Nikolay Talanov](https://codepen.io/suez/pen/ByvKXE "Fullscreen drag-slider with parallax")
 
