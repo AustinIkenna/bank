@@ -1,26 +1,26 @@
 
 
 @font-face {
-  font-family: 'Ubuntu_Mono';
-  src: url('Ubuntu_Mono/UbuntuMono-Regular.ttf') format("truetype");
+  font-family: 'SourceSansPro';
+  src: url('source_sans_pro/SourceSansPro-Regular.ttf') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Ubuntu_Mono';
-  src: url('Ubuntu_Mono/UbuntuMono-Bold.ttf') format("truetype");
+  font-family: 'SourceSansPro';
+  src: url('source_sans_pro/SourceSansPro-Bold.ttf') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Ubuntu_Mono';
-  src: url('Ubuntu_Mono/UbuntuMono-Italic.ttf') format("truetype");
+  font-family: 'SourceSansPro';
+  src: url('source_sans_pro/SourceSansPro-Italic.ttf') format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: 'Ubuntu_Mono';
-  src: url('Ubuntu_Mono/UbuntuMono-BlackItalic.ttf') format("truetype");
+  font-family: 'SourceSansPro';
+  src: url('source_sans_pro/SourceSansPro-BlackItalic.ttf') format("truetype");
   font-weight: 900;
   font-style: italic;
 }
@@ -63,7 +63,7 @@ button  {
   	cursor: pointer;
 }
 .nav {
-    font-family: "Ubuntu_Mono", Helvetica, sans-serif;
+    font-family: "SourceSansPro", sans-serif;
   	display: inline-block;
 }
 
@@ -243,7 +243,7 @@ button  {
   	position: relative;
   	padding: 0.5rem;
   	cursor: pointer;
-  	font-family: "Ubuntu_Mono", Helvetica, sans-serif;
+  	font-family: "SourceSansPro", sans-serif;
   	font-size: 2.3rem;
   	-webkit-perspective: 1000px;
         	perspective: 1000px;
@@ -324,6 +324,7 @@ a.menu7:hover {
 /* Side menu contianer styling*/
 .menuWrapper {
   	color: #fff;
+    font-family: "SourceSansPro";
   	font-size: 220%;
   	font-weight: bold;
   	padding: 3.2%;

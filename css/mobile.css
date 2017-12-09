@@ -64,15 +64,22 @@ body {
     left: 20%;
 }
 
+/* Hide submenu */
+.menu ul li > ul,
+.menu ul li:hover > ul { 
+    display: none;
+}
+
+
 /* Bottom Nav styling */
 .nav.mediumNav {
-    font-size: 100%;
+    font-size: 85%;
     color: white;
     width: 272px;
     height: auto;
     text-align: center;
     margin-top: 1.8%;
-    padding: 15% 0;
+    padding: 15% 2%;
     border-radius: 0.3em;
     background-color: #cc3300;
     float: right;
@@ -82,8 +89,12 @@ body {
     color: #fff;
 }
 
-.col-20 {
-    width: 20%;
+.nav.mediumNav img {
+    width: 40%;
+}
+
+.col-25 {
+    width: 25%;
     margin: 0;
     float: left;    
 }
@@ -139,6 +150,7 @@ a {
 }
 
 #mobileMenu {
+    font-family: "SourceSansPro";
     position: absolute;
     display: inline-block;
     overflow-y: scroll;
@@ -173,7 +185,6 @@ div ul li ul {
 }
 .subMenuMobile li {
   	color: #ffffff;
-  	padding: 4% 5%;
   	text-decoration: none;
 }
 
@@ -214,7 +225,7 @@ div ul li ul {
 
 
 /* **********************************************/
-/* ************ Slider Responsiveness ***********/
+/* ************ Mobile Responsiveness ***********/
 /* **********************************************/
 @media only screen and (min-width : 0) and (max-width : 450px) {
 .slider {
@@ -225,10 +236,13 @@ div ul li ul {
     top: 40%;
     height: 47%;
 }
+.subMenuMobile li {
+    padding: 3.5% 5%;
+}
 
 /* Slide link styling */
 .slide.active .slide-text {
-    width: 40%;
+    width: 50%;
     bottom: 15%;
 }
 
@@ -251,6 +265,9 @@ div ul li ul {
     top: 50%;
     height: 40%;
 }
+.subMenuMobile li {
+    padding: 2.5% 5%;
+}
 
 /* Slide link styling */
 .slide.active .slide-text {
@@ -268,7 +285,7 @@ div ul li ul {
 }
 
 .nav.bottomNav img {
-    width: 30%;
+    width: 29%;
     padding: 3% 0;
 }
 }
@@ -283,6 +300,9 @@ div ul li ul {
     top: 55%;
     height: 40%;
 }
+.subMenuMobile li {
+    padding: 2% 5%;
+}
 
 /* Slide link styling */
 .slide.active .slide-text {
@@ -296,7 +316,7 @@ div ul li ul {
 }
 
 .nav.bottomNav {
-    padding: 1.5% 0;
+    padding: 1.4% 0;
 }
 
 .nav.bottomNav img {

@@ -1,7 +1,7 @@
 
 //Mobile menu
 $(function(){
-  $("#nav1 li").on('click', function() {
+  $(".parentMenuMobile1").on('click', function() {
       $('.subMenuMobile').toggle();
 });
 });
