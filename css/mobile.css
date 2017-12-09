@@ -1,10 +1,4 @@
-/* ****************************************/
-
-
 /* ************* Enable scroll ************/
-
-
-/* ****************************************/
 
 @media only screen and (min-width: 960px) and (max-width: 1023px) {
     body {
@@ -17,13 +11,7 @@
 }
 
 
-/* ****************************************/
-
-
 /* ************ Hidden Elements ***********/
-
-
-/* ****************************************/
 
 @media only screen and (min-width: 960px) and (max-width: 1500px) {
     .mediumNav {
@@ -42,13 +30,7 @@
 }
 
 
-/* *************************************************************************/
-
-
 /* ************ Responsiveness styling for screen size 701 - 959px ***********/
-
-
-/* *************************************************************************/
 
 @media only screen and (min-width: 701px) and (max-width: 959px) {
     /*** To Make home menu to drop down instead of slide out dropdown menu here 
@@ -101,13 +83,7 @@
 }
 
 
-/* *************************************************************************/
-
-
 /* ************ Responsiveness styling for screen size 0 - 700px ***********/
-
-
-/* *************************************************************************/
 
 @media only screen and (min-width: 0) and (max-width: 700px) {
     /* Styles */
@@ -214,13 +190,7 @@
 }
 
 
-/* **********************************************/
-
-
 /* ************ Mobile Responsiveness ***********/
-
-
-/* **********************************************/
 
 @media only screen and (min-width: 0) and (max-width: 450px) {
     .slider {
