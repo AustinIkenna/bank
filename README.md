@@ -22,7 +22,7 @@ The was what the bank's mobile site looks like- ![](images/GTBank_mobile_old.JPG
     
     [Mobile menu](images/GTBank_mobile_new2.png "GTBank New Mobile menu")
 
-### Languages
+### Technologies
 * HTML5
 * CSS3
 * JQUERY
