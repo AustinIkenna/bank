@@ -177,6 +177,7 @@
         color: #fff;
     }
     .col-20 {
+        font-size: 85%;
         width: 20%;
         margin: 0;
         float: left;
