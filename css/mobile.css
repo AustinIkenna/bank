@@ -110,7 +110,6 @@
     /* Slide link styling */
     .slide.active .slide-text {
         text-align: center;
-        left: 30%;
     }
     .slide-text .slide-link {
         font-size: 160%;
@@ -163,14 +162,13 @@
     }
     /* Bottom Nav styling */
     .nav.bottomNav {
-        top: 87%;
+        bottom: 0;
         width: 100%;
         height: auto;
         display: inline-block;
         text-align: center;
         background: #cc3300;
-        position: absolute;
-        overflow: visible;
+        position: fixed;
         z-index: 201;
     }
     .bottomNav a {
@@ -199,7 +197,7 @@
     }
     #mobileMenu {
         top: 40%;
-        height: 47%;
+        height: 50%;
     }
     .subMenuMobile li {
         padding: 3.5% 5%;
@@ -207,6 +205,7 @@
     /* Slide link styling */
     .slide.active .slide-text {
         width: 50%;
+        left: 25%;
         bottom: 15%;
     }
     /* Slide control button styling */
@@ -214,7 +213,11 @@
         bottom: 62%;
     }
     .nav.bottomNav {
-        padding: 3% 0;
+        padding: 2.7% 0;
+    }
+    .nav.bottomNav img {
+        width: 27%;
+        padding: 0;
     }
 }
 
@@ -232,27 +235,28 @@
     /* Slide link styling */
     .slide.active .slide-text {
         width: 42%;
-        bottom: 15%;
+        left: 29%;
+        bottom: 16%;
     }
     /* Slide control button styling */
     .slider-pagi {
-        bottom: 53%;
+        bottom: 54%;
     }
     .nav.bottomNav {
-        padding: 1.8% 0;
+        padding: 1.9% 0;
     }
     .nav.bottomNav img {
-        width: 29%;
-        padding: 3% 0;
+        width: 25%;
+        padding: 0;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 700px) {
     .slider {
-        height: 55%;
+        height: 50%;
     }
     #mobileMenu {
-        top: 55%;
+        top: 50%;
         height: 40%;
     }
     .subMenuMobile li {
@@ -261,17 +265,18 @@
     /* Slide link styling */
     .slide.active .slide-text {
         width: 42%;
+        left: 29%;
         bottom: 15%;
     }
     /* Slide control button styling */
     .slider-pagi {
-        bottom: 48%;
+        bottom: 54%;
     }
     .nav.bottomNav {
         padding: 1.4% 0;
     }
     .nav.bottomNav img {
-        width: 26%;
-        padding: 3% 0;
+        width: 23%;
+        padding: 1%;
     }
 }
