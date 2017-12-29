@@ -1,6 +1,6 @@
 # Bank
 
-Bank is a frontend redesign of the GTBank home page.
+Bank is a frontend redesign of GTBank home page.
 
 The homepage of GTBank website is indeed very beautiful, i was very impressed with the way the designers/developers were able to conceal large chunk of information and links. The homepage design is simple yet very appealing, i thinks users will not have a hard time locating information on the website.
 
